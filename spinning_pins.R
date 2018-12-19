@@ -1,6 +1,11 @@
+library(checkpoint)
+checkpoint("2018-10-01")
+
 library(tidyverse)
 library(data.table)
 library(gganimate)
+library(gifski)
+library(png)
 
 # 1st pattern
 n_points  <- 20
